@@ -11,8 +11,14 @@ class MyApp extends StatelessWidget {
           appBar: new AppBar(
             title: new Text('Welcome to Flutter'),
           ),
+          //Image(
+//   image: AssetImage("images/avatar.png"),
+//   width: 100.0
+// );
           body: new Center(
-            child: new Text('Hello World'),
+            child: Image(
+              image: AssetImage("images/long.jpg"),
+            ),
           ),
         ));
   }
